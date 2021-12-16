@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4777859664067696540}
   - component: {fileID: 582275491055241064}
   - component: {fileID: -2301641370081307854}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: BaseProjectile
   m_TagString: BaseProjectile
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2527774689741265536}
   m_LocalRotation: {x: -0, y: -0, z: 0.0020277796, w: -0.999998}
-  m_LocalPosition: {x: -7.4307966, y: -0.5890751, z: 0}
+  m_LocalPosition: {x: -6.3294806, y: -0.043700695, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -145,6 +145,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 11400000, guid: 754e9fa230a63f645a9aa6f367696590, type: 2}
+  damageAmount: 100
+  damageLayers:
+    serializedVersion: 2
+    m_Bits: 16384
   fired: 1
   left: 1
   projectileLifeTime: 1.5

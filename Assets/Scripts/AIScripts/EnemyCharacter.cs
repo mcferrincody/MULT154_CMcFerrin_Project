@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 namespace MetroidvaniaTools
 {
+    //Like the Character script on the Player, this has many quick references and methods that this script feeds to the different AI scripts; changing anything in this script is not recommended, especially the GroundCheck method
     public class EnemyCharacter : MonoBehaviour
     {
         [HideInInspector]
@@ -18,26 +20,26 @@ namespace MetroidvaniaTools
         protected Collider2D col;
         protected Collider2D playerCollider;
         protected EnemyMovement enemyMovement;
-        
-        
 
         protected int rayHitNumber;
         public float originalTimeTillDoAction;
         protected float timeTillDoAction;
 
-        void Start()
+        private void Start()
         {
-            Initialiazation();
+            Initialization();
         }
 
-        protected virtual void Initialiazation()
+        protected virtual void Initialization()
         {
             rb = GetComponent<Rigidbody2D>();
             col = GetComponent<Collider2D>();
             enemyMovement = GetComponent<EnemyMovement>();
             player = FindObjectOfType<Character>().gameObject;
             playerCollider = player.GetComponent<Collider2D>();
+            CharacterManager.CharacterUpdate += NewCharacter;
         }
+
         protected virtual bool CollisionCheck(Vector2 direction, float distance, LayerMask collision)
         {
             RaycastHit2D[] hits = new RaycastHit2D[10];
@@ -52,10 +54,12 @@ namespace MetroidvaniaTools
             return false;
         }
 
+        //This method manages all of the different raycasts used to have the AI change directions or rotate when they need to
+        //Changing anything in this method is not recommneded
         protected virtual void CheckGround()
         {
             bool rightward;
-            if(transform.localScale.x > 0)
+            if (transform.localScale.x > 0)
             {
                 rightward = true;
             }
@@ -64,7 +68,7 @@ namespace MetroidvaniaTools
                 rightward = false;
             }
             Ray2D forwardRay = new Ray2D();
-            if(rightward)
+            if (rightward)
             {
                 forwardRay.origin = new Vector2(transform.position.x + (transform.localScale.x * .5f) + .05f, transform.position.y + (transform.localScale.y * .5f));
             }
@@ -76,12 +80,12 @@ namespace MetroidvaniaTools
             groundRays[0].origin = new Vector2(transform.position.x - (transform.localScale.x * .5f), transform.position.y - .05f);
             groundRays[1].origin = new Vector2(transform.position.x, transform.position.y - .05f);
             groundRays[2].origin = new Vector2(transform.position.x + (transform.localScale.x * .5f), transform.position.y - .05f);
-            if(Mathf.Round(transform.localEulerAngles.z) == 90)
+            if (Mathf.Round(transform.localEulerAngles.z) == 90)
             {
-                groundRays[0].origin = new Vector2(transform.position.x + .05f, transform.position.y + (transform.localScale.x *.5f));
+                groundRays[0].origin = new Vector2(transform.position.x + .05f, transform.position.y + (transform.localScale.x * .5f));
                 groundRays[1].origin = new Vector2(transform.position.x + .05f, transform.position.y);
                 groundRays[2].origin = new Vector2(transform.position.x + .05f, transform.position.y - (transform.localScale.x * .5f));
-                if(rightward)
+                if (rightward)
                 {
                     forwardRay.origin = new Vector2(transform.position.x - transform.localScale.x, transform.position.y + (transform.localScale.y * .25f) + .05f);
                 }
@@ -97,11 +101,11 @@ namespace MetroidvaniaTools
                 groundRays[2].origin = new Vector2(transform.position.x + (transform.localScale.x * .5f), transform.position.y + .05f);
                 if (rightward)
                 {
-                    forwardRay.origin = new Vector2(transform.position.x + (transform.localScale.x * .5f) - .05f, transform.position.y - (transform.localScale.y * .5f));
+                    forwardRay.origin = new Vector2((transform.position.x - (transform.localScale.x * .5f) - .05f), transform.position.y - (transform.localScale.y * .5f));
                 }
                 else
                 {
-                    forwardRay.origin = new Vector2(transform.position.x - (transform.localScale.x * .5f) - .05f, transform.position.y + (transform.localScale.y * .5f));
+                    forwardRay.origin = new Vector2((transform.position.x - (transform.localScale.x * .5f) + .05f), transform.position.y - (transform.localScale.y * .5f));
                 }
             }
             if (Mathf.Round(transform.localEulerAngles.z) == 270)
@@ -111,7 +115,7 @@ namespace MetroidvaniaTools
                 groundRays[2].origin = new Vector2(transform.position.x - .05f, transform.position.y - (transform.localScale.x * .5f));
                 if (rightward)
                 {
-                    forwardRay.origin = new Vector2(transform.position.x + transform.localScale.x, transform.position.y + (transform.localScale.y * .25f) - .05f);
+                    forwardRay.origin = new Vector2(transform.position.x + transform.localScale.x, transform.position.y - (transform.localScale.y * .25f) - .05f);
                 }
                 else
                 {
@@ -119,7 +123,7 @@ namespace MetroidvaniaTools
                 }
             }
             RaycastHit2D forwardHit = new RaycastHit2D();
-            if(rightward)
+            if (rightward)
             {
                 forwardHit = Physics2D.Raycast(forwardRay.origin, transform.right, .1f);
             }
@@ -127,7 +131,7 @@ namespace MetroidvaniaTools
             {
                 forwardHit = Physics2D.Raycast(forwardRay.origin, -transform.right, .1f);
             }
-            if(forwardHit && forwardHit.collider.gameObject != player && forwardHit.collider.gameObject.layer != gameObject.layer)
+            if (forwardHit && forwardHit.collider.gameObject != player && forwardHit.collider.gameObject.layer != gameObject.layer)
             {
                 enemyMovement.turn = true;
             }
@@ -136,19 +140,23 @@ namespace MetroidvaniaTools
                 enemyMovement.turn = false;
             }
             RaycastHit2D[] hits = new RaycastHit2D[3];
-            for(int i = 0; i < 3; i++)
+            int numberOfHits = 0;
+            for (int i = 0; i < 3; i++)
             {
                 hits[i] = Physics2D.Raycast(groundRays[i].origin, -transform.up, Mathf.Abs(transform.localScale.x * .5f));
             }
-            int numberOfHits = 0;
-            foreach(RaycastHit2D hit in hits)
+            foreach (RaycastHit2D hit in hits)
             {
-            if(hit)
-            {
-                numberOfHits++;
+                if (hit)
+                {
+                    numberOfHits++;
+                }
             }
             rayHitNumber = numberOfHits;
-            }
+        }
+        protected virtual void NewCharacter()
+        {
+            player = FindObjectOfType<Character>().gameObject;
         }
     }
 }

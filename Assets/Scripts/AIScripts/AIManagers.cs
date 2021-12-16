@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MetroidvaniaTools 
+namespace MetroidvaniaTools
 {
+    //A quick reference to the EnemyCharacter script for all the different AI scripts
     public class AIManagers : EnemyCharacter
     {
         protected EnemyCharacter enemyCharacter;
 
-        protected override void Initialiazation()
+        protected override void Initialization()
         {
-            base.Initialiazation();
+            base.Initialization();
             enemyCharacter = GetComponent<EnemyCharacter>();
         }
-
     }
 }

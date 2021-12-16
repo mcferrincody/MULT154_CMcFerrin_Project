@@ -4,8 +4,10 @@ using UnityEngine;
 
 namespace MetroidvaniaTools
 {
+    //This script handles all the Input Dection by allowing game designers to choose the button and keys from a dropdown in the inspector
     public class InputManager : MonoBehaviour
     {
+        //All the different key inputs the game would need to look for
         [SerializeField]
         protected KeyCode crouchHeld;
         [SerializeField]
@@ -34,26 +36,10 @@ namespace MetroidvaniaTools
         protected KeyCode changeWeaponPressed;
         [SerializeField]
         protected KeyCode bigMapPressed;
-
-        // Update is called once per frame
-        void Update()
-        {
-            CrouchHeld();
-            DashPressed();
-            SprintingHeld();
-            JumpPressed();
-            JumpHeld();
-            WeaponFired();
-            WeaponFiredHeld();
-            UpHeld();
-            DownHeld();
-            LeftHeld();
-            RightHeld();
-            TiltedUpHeld();
-            TiltedDownHeld();
-            AimingHeld();
-            ChangeWeaponPressed();
-        }
+        [SerializeField]
+        protected KeyCode changeCharacterPressed;
+        [SerializeField]
+        protected KeyCode meleeAttackPressed;
 
         public virtual bool CrouchHeld()
         {
@@ -63,6 +49,7 @@ namespace MetroidvaniaTools
             }
             return false;
         }
+
         public virtual bool DashPressed()
         {
             if (Input.GetKeyDown(dashPressed))
@@ -72,6 +59,7 @@ namespace MetroidvaniaTools
             else
                 return false;
         }
+
         public virtual bool SprintingHeld()
         {
             if (Input.GetKey(sprintingHeld))
@@ -81,6 +69,7 @@ namespace MetroidvaniaTools
             else
                 return false;
         }
+
         public virtual bool JumpHeld()
         {
             if (Input.GetKey(jump))
@@ -90,6 +79,7 @@ namespace MetroidvaniaTools
             else
                 return false;
         }
+
         public virtual bool JumpPressed()
         {
             if (Input.GetKeyDown(jump))
@@ -99,6 +89,7 @@ namespace MetroidvaniaTools
             else
                 return false;
         }
+
         public virtual bool WeaponFired()
         {
             if (Input.GetKeyDown(weaponFired))
@@ -108,6 +99,7 @@ namespace MetroidvaniaTools
             else
                 return false;
         }
+
         public virtual bool WeaponFiredHeld()
         {
             if (Input.GetKey(weaponFired))
@@ -117,6 +109,7 @@ namespace MetroidvaniaTools
             else
                 return false;
         }
+
         public virtual bool UpHeld()
         {
             if (Input.GetKey(upHeld))
@@ -192,6 +185,24 @@ namespace MetroidvaniaTools
         public virtual bool BigMapPressed()
         {
             if (Input.GetKeyDown(bigMapPressed))
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+        public virtual bool ChangeCharacterPressed()
+        {
+            if (Input.GetKeyDown(changeCharacterPressed))
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+        public virtual bool MeleeAttackPressed()
+        {
+            if (Input.GetKeyDown(meleeAttackPressed))
             {
                 return true;
             }

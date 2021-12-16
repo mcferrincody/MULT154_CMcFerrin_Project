@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 613794393}
   m_Layer: 11
   m_Name: GrapplingHookTrailStart
-  m_TagString: Untagged
+  m_TagString: GrapplingHook
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,9 +114,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613794392}
-  m_LocalRotation: {x: -0, y: 0, z: -0.7097599, w: -0.70444375}
-  m_LocalPosition: {x: 2.7729588, y: -0.85124636, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1946670190}
   m_RootOrder: 1
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122568393}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30ae93fb156fc6d4c828c64571fc3edd, type: 3}
   m_Name: 
@@ -430,7 +430,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 2213062529421211869}
   m_Bounds:
-    m_Center: {x: 0.050996184, y: -0.043442488, z: 0}
+    m_Center: {x: 0.051003933, y: -0.04344082, z: 0}
     m_Extent: {x: 0.98463297, y: 0.9966426, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -457,14 +457,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684387039767570575}
-  m_LocalRotation: {x: 0, y: 0, z: -0.9888731, w: 0.14876156}
+  m_LocalRotation: {x: 0, y: 0, z: -0.9888732, w: 0.14876118}
   m_LocalPosition: {x: 2.818739, y: -1.7225572, z: 0}
   m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
   m_Children:
   - {fileID: 5861286339497856189}
   m_Father: {fileID: 6747411600464787252}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -174.805}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.926}
 --- !u!1 &1177674253864245083
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,13 +488,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177674253864245083}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7049805, w: 0.7092268}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7013004, w: 0.7128658}
   m_LocalPosition: {x: 5.26, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7021849417253978750}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270.344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270.937}
 --- !u!1 &1177674254104730141
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,13 +518,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177674254104730141}
-  m_LocalRotation: {x: -0, y: -0, z: 0.12230585, w: 0.9924925}
+  m_LocalRotation: {x: -0, y: -0, z: 0.12230496, w: 0.9924926}
   m_LocalPosition: {x: 4.45, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4519059751262170198}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18374.05}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16214.05}
 --- !u!1 &1177674254198110222
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,7 +642,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177674254539488534}
-  m_LocalRotation: {x: -0, y: -0, z: 0.14869812, w: 0.9888827}
+  m_LocalRotation: {x: -0, y: -0, z: 0.148696, w: 0.98888296}
   m_LocalPosition: {x: 4.67, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -702,13 +702,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177674254873867644}
-  m_LocalRotation: {x: -0, y: -0, z: -0.946903, w: 0.32151955}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9469029, w: 0.3215199}
   m_LocalPosition: {x: 3.78, y: -0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5861286339497856189}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -142.49}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 217.51}
 --- !u!1 &1177674255014023918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,8 +1090,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 3066223683263755985}
   m_Bounds:
-    m_Center: {x: -1.2027338, y: 0.001129806, z: 0}
-    m_Extent: {x: 0.84857273, y: 0.8626926, z: 0}
+    m_Center: {x: -1.2027295, y: 0.0011259317, z: 0}
+    m_Extent: {x: 0.8485749, y: 0.86269134, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &1937964746468677247
@@ -1150,14 +1150,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977774790687297898}
-  m_LocalRotation: {x: 0, y: 0, z: -0.09493085, w: 0.99548393}
+  m_LocalRotation: {x: 0, y: 0, z: -0.094926044, w: 0.9954844}
   m_LocalPosition: {x: 4.1193523, y: -0.039110813, z: 0}
   m_LocalScale: {x: 0.99999964, y: 0.99999964, z: 1}
   m_Children:
   - {fileID: 1177674254539488529}
   m_Father: {fileID: 3610016529788049731}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -178.568}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.994}
 --- !u!1 &2194763520257477583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,7 +1184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2194763520257477583}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16499996, y: 11.91, z: 0}
+  m_LocalPosition: {x: -0.165, y: 11.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2265263878953916363}
@@ -1259,7 +1259,7 @@ MonoBehaviour:
   - {fileID: 6747411600464787252}
   - {fileID: 9019475477771685655}
   m_Bounds:
-    m_Center: {x: 0.07131696, y: 0.0016782284, z: 0}
+    m_Center: {x: 0.07132077, y: 0.0016782284, z: 0}
     m_Extent: {x: 2.2077765, y: 3.5256808, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -1317,7 +1317,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2589870335465511905}
-  m_LocalRotation: {x: 0, y: 0, z: 0.70848554, w: -0.7057254}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9967482, w: -0.08057925}
   m_LocalPosition: {x: 2.9753284, y: 2.5838468, z: 0}
   m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
   m_Children:
@@ -1348,7 +1348,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2744011832843255328}
-  m_LocalRotation: {x: 0, y: 0, z: 0.0019013266, w: 0.9999982}
+  m_LocalRotation: {x: 0, y: 0, z: 0.64383936, w: 0.7651608}
   m_LocalPosition: {x: 3.0479195, y: -0.00000067396525, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1356,7 +1356,7 @@ Transform:
   - {fileID: 186280567}
   m_Father: {fileID: 7179037847020403315}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.184}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.443}
 --- !u!1 &3551821134257517486
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,8 +1457,8 @@ MonoBehaviour:
   - {fileID: 8148392746570956766}
   - {fileID: 4519059751262170198}
   m_Bounds:
-    m_Center: {x: 0.26557755, y: 0.05392337, z: 0}
-    m_Extent: {x: 1.0914682, y: 2.335032, z: 0}
+    m_Center: {x: 0.26557267, y: 0.05392456, z: 0}
+    m_Extent: {x: 1.0914646, y: 2.335033, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3870258750842449672
@@ -1560,8 +1560,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 5861286339497856189}
   m_Bounds:
-    m_Center: {x: 1.6096042, y: 6.1086464, z: 0}
-    m_Extent: {x: 0.46505177, y: 0.69420075, z: 0}
+    m_Center: {x: 1.609608, y: 6.1086445, z: 0}
+    m_Extent: {x: 0.465052, y: 0.69420075, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4183058498934223071
@@ -1664,8 +1664,8 @@ MonoBehaviour:
   - {fileID: 7179037847020403315}
   - {fileID: 7021849417253978750}
   m_Bounds:
-    m_Center: {x: 1.8278906, y: 1.5582001, z: 0}
-    m_Extent: {x: 1.5134966, y: 0.7454517, z: 0}
+    m_Center: {x: 0.43413538, y: 0.015239, z: 0}
+    m_Extent: {x: 0.77455765, y: 1.5417562, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4298761826581394140
@@ -1691,14 +1691,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4298761826581394140}
-  m_LocalRotation: {x: 0, y: 0, z: -0.17174141, w: 0.98514205}
+  m_LocalRotation: {x: 0, y: 0, z: -0.17173968, w: 0.98514235}
   m_LocalPosition: {x: 4.1123357, y: -0.0000000057260126, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
   m_Children:
   - {fileID: 1177674254104730140}
   m_Father: {fileID: 8148392746570956766}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -27.065}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -42.456}
 --- !u!1 &4660615703394473455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,8 +1798,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4519059751262170198}
   m_Bounds:
-    m_Center: {x: -0.3535204, y: -0.07069898, z: 0}
-    m_Extent: {x: 1.0611517, y: 0.76129866, z: 0}
+    m_Center: {x: -0.35352385, y: -0.07069981, z: 0}
+    m_Extent: {x: 1.0611525, y: 0.7612974, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4747969462815426383
@@ -1902,8 +1902,8 @@ MonoBehaviour:
   - {fileID: 3610016529788049731}
   - {fileID: 3066223683263755985}
   m_Bounds:
-    m_Center: {x: 0.017297328, y: 0.018630981, z: 0}
-    m_Extent: {x: 0.90629977, y: 2.4600418, z: 0}
+    m_Center: {x: 0.017294943, y: 0.018630981, z: 0}
+    m_Extent: {x: 0.9062987, y: 2.460042, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4792986117112746701
@@ -2005,8 +2005,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7021849417253978750}
   m_Bounds:
-    m_Center: {x: 5.9327374, y: 5.3235645, z: 0}
-    m_Extent: {x: 2.9452572, y: 0.5502162, z: 0}
+    m_Center: {x: 3.3357322, y: 2.3457556, z: 0}
+    m_Extent: {x: 2.946155, y: 0.5636755, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &4855588270473863256
@@ -2032,7 +2032,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4855588270473863256}
-  m_LocalRotation: {x: 0, y: 0, z: 0.9999447, w: -0.010522151}
+  m_LocalRotation: {x: 0, y: 0, z: 0.99994475, w: -0.010519452}
   m_LocalPosition: {x: -0.38300422, y: 0.7127624, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
   m_Children:
@@ -2096,7 +2096,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6086220172366208217}
-  m_LocalRotation: {x: 0, y: 0, z: -0.9934302, w: 0.11443983}
+  m_LocalRotation: {x: 0, y: 0, z: -0.9934303, w: 0.11443899}
   m_LocalPosition: {x: -0.41383064, y: -0.8113523, z: 0}
   m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
   m_Children:
@@ -2124,10 +2124,12 @@ GameObject:
   - component: {fileID: 1033469724}
   - component: {fileID: 1033469729}
   - component: {fileID: 1033469730}
-  - component: {fileID: 1033469731}
   - component: {fileID: 1033469734}
+  - component: {fileID: 785361681}
+  - component: {fileID: 785361694}
+  - component: {fileID: 1034859378}
   m_Layer: 11
-  m_Name: _Player
+  m_Name: _PlayerCharacter
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2277,13 +2279,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isJumping: 0
-  isJumpingThroughPlatform: 0
   isSwimming: 0
+  isOnLadder: 0
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
   isWallSliding: 0
-  isOnLadder: 0
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
+  dashAbility: 0
+  wallJumpAbility: 0
   timeTillMaxSpeed: 0.75
   maxSpeed: 6
   sprintMultiplier: 2
@@ -2291,6 +2301,8 @@ MonoBehaviour:
   hookSpeedMultiplier: 3
   ladderSpeed: 7
   currentLadder: {fileID: 0}
+  deltaPositions: []
+  bestDeltaPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &1033469721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2305,13 +2317,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isJumping: 0
-  isJumpingThroughPlatform: 0
   isSwimming: 0
+  isOnLadder: 0
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
   isWallSliding: 0
-  isOnLadder: 0
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
 --- !u!114 &1033469722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2326,16 +2344,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isJumping: 0
-  isJumpingThroughPlatform: 0
   isSwimming: 0
+  isOnLadder: 0
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
   isWallSliding: 0
-  isOnLadder: 0
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
+  dashAbility: 0
+  wallJumpAbility: 0
   weaponTypes:
   - {fileID: 11400000, guid: 754e9fa230a63f645a9aa6f367696590, type: 2}
   - {fileID: 11400000, guid: 572e11493eb479343b80a62f34044bdd, type: 2}
+  - {fileID: 11400000, guid: 3bc878c9ce9961f47950e6e1753bb212, type: 2}
   gunBarrel: {fileID: 1177674253864245082}
   gunRotation: {fileID: 7021849417253978750}
   currentPool: []
@@ -2358,23 +2385,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isJumping: 0
-  isJumpingThroughPlatform: 0
   isSwimming: 0
+  isOnLadder: 0
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
   isWallSliding: 0
-  isOnLadder: 0
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
+  dashAbility: 0
+  wallJumpAbility: 0
   limitAirJumps: 1
   maxJumps: 2
-  jumpForce: 150
-  holdForce: 150
-  buttonHoldTime: 0.35
+  jumpForce: 25
+  holdForce: 25
+  buttonHoldTime: 0.4
   distanceToCollider: 0.08
   horizontalWallJumpForce: 500
   verticalWallJumpForce: 50
-  maxJumpSpeed: 5
-  maxFallSpeed: -10
+  maxJumpSpeed: 6
+  maxFallSpeed: -30
   acceptedFallSpeed: -5
   glideTime: 1.5
   gravity: 0.5
@@ -2382,6 +2417,7 @@ MonoBehaviour:
   collisionLayer:
     serializedVersion: 2
     m_Bits: 256
+  downwardJump: 0
 --- !u!114 &1033469724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2396,13 +2432,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isJumping: 0
-  isJumpingThroughPlatform: 0
   isSwimming: 0
+  isOnLadder: 0
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
   isWallSliding: 0
-  isOnLadder: 0
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
+  dashAbility: 0
+  wallJumpAbility: 0
   aimingGun: {fileID: 2122568394}
   aimingLeftHand: {fileID: 1424949990}
   notAimingGun: {fileID: 1177674255442480916}
@@ -2429,13 +2473,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isJumping: 0
-  isJumpingThroughPlatform: 0
   isSwimming: 0
+  isOnLadder: 0
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
   isWallSliding: 0
-  isOnLadder: 0
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
+  dashAbility: 0
+  wallJumpAbility: 0
   colliderMultiplier: 0.5
   layers:
     serializedVersion: 2
@@ -2447,27 +2499,76 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6209825690095962246}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c01315baa6520694fab75285c4a1c8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isJumping: 0
-  isJumpingThroughPlatform: 0
   isSwimming: 0
+  isOnLadder: 0
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
   isWallSliding: 0
-  isOnLadder: 0
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
+  dashAbility: 0
+  wallJumpAbility: 0
   dashForce: 1000
   dashCooldownTime: 2
   dashAmountTime: 0.5
   dashingLayers:
     serializedVersion: 2
-    m_Bits: 512
---- !u!114 &1033469731
+    m_Bits: 16896
+  enemyDashingLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &1033469734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6209825690095962246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2917e3f7c74f9a94d95aff01ec36ac9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFacingLeft: 0
+  isJumping: 0
+  isSwimming: 0
+  isOnLadder: 0
+  isGrounded: 0
+  isCrouching: 0
+  isDashing: 0
+  isWallSliding: 0
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
+  dashAbility: 0
+  wallJumpAbility: 0
+  hookLength: 10
+  minHookLength: 2
+  hookReelSpeed: 5
+  verticalForce: 10
+  horizontalForce: 10
+  connected: 0
+  removed: 0
+  objectConnectedTo: {fileID: 0}
+  hookTrail: {fileID: 613794392}
+--- !u!114 &785361681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2492,8 +2593,10 @@ MonoBehaviour:
   tiltedDownHeld: 99
   aimingHeld: 303
   changeWeaponPressed: 13
-  bigMapPressed: 109
---- !u!114 &1033469734
+  bigMapPressed: 9
+  changeCharacterPressed: 0
+  meleeAttackPressed: 112
+--- !u!114 &785361694
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2502,27 +2605,54 @@ MonoBehaviour:
   m_GameObject: {fileID: 6209825690095962246}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2917e3f7c74f9a94d95aff01ec36ac9d, type: 3}
+  m_Script: {fileID: 11500000, guid: cf2ecd10e6c7d1e4eb292278e45a2c8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xMin: 0
+  xMax: 0
+  yMin: 0
+  yMax: 0
+  gamePaused: 0
+  maxHealthPoints: 100
+  iFrameTime: 0.1
+  verticalDamageForce: 50
+  horizontalDamageForce: 50
+  healthPoints: 0
+  left: 0
+  hit: 0
+  slowDownTimeAmount: 0.1
+  slowDownSpeed: 0.25
+--- !u!114 &1034859378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6209825690095962246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d489e751f60feb842948811f8ee53a9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isJumping: 0
-  isJumpingThroughPlatform: 0
   isSwimming: 0
+  isOnLadder: 0
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
   isWallSliding: 0
-  isOnLadder: 0
-  hookLength: 10
-  minHookLength: 2
-  hookReelSpeed: 5
-  verticalForce: 10
-  horizontalForce: 10
-  connected: 0
-  removed: 0
-  objectConnectedTo: {fileID: 0}
-  hookTrail: {fileID: 613794392}
+  isDead: 0
+  gameFile: 0
+  currentWeaponSelected: 0
+  grabbingLedge: 0
+  meleeAttacking: 0
+  sprintingMeleeAttack: 0
+  isSprinting: 0
+  dashAbility: 0
+  wallJumpAbility: 0
+  clip: {fileID: 7400000, guid: ce4a9589c71e02f45a5c4763d62add47, type: 2}
+  climbingHorizontalOffset: 1
 --- !u!1 &7551044060778884960
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,8 +2752,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4519059751262170198}
   m_Bounds:
-    m_Center: {x: 0.6216401, y: 0.055965662, z: 0}
-    m_Extent: {x: 0.79654074, y: 2.219724, z: 0}
+    m_Center: {x: 0.6216367, y: 0.055965185, z: 0}
+    m_Extent: {x: 0.7965374, y: 2.2197244, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &7665076259612115982
@@ -2725,7 +2855,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 9019475477771685655}
   m_Bounds:
-    m_Center: {x: 0.08610582, y: -0.0017763376, z: 0}
+    m_Center: {x: 0.08610964, y: -0.0017738342, z: 0}
     m_Extent: {x: 1.0052165, y: 1.2004912, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -2828,8 +2958,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7179037847020403315}
   m_Bounds:
-    m_Center: {x: 0.11326116, y: 0.11261654, z: 0}
-    m_Extent: {x: 0.97484833, y: 0.9883195, z: 0}
+    m_Center: {x: 0.050596118, y: 0.038744032, z: 0}
+    m_Extent: {x: 1.0030103, y: 0.9789368, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &7944101918124874066
@@ -2931,8 +3061,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 5861286339497856189}
   m_Bounds:
-    m_Center: {x: 1.0275186, y: 1.9502071, z: 0}
-    m_Extent: {x: 1.0021919, y: 1.5470096, z: 0}
+    m_Center: {x: 1.0275148, y: 1.9502038, z: 0}
+    m_Extent: {x: 1.0021927, y: 1.5470093, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8413143007726906375
@@ -3035,8 +3165,8 @@ MonoBehaviour:
   - {fileID: 2213062529421211869}
   - {fileID: 5861286339497856189}
   m_Bounds:
-    m_Center: {x: 0.34361833, y: 0.040468216, z: 0}
-    m_Extent: {x: 0.74981916, y: 1.4050239, z: 0}
+    m_Center: {x: 0.34362215, y: 0.040466547, z: 0}
+    m_Extent: {x: 0.74981874, y: 1.4050242, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8588445604523499672
@@ -3138,8 +3268,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 3066223683263755985}
   m_Bounds:
-    m_Center: {x: -0.013754427, y: 0.0055806637, z: 0}
-    m_Extent: {x: 0.96321654, y: 2.3619502, z: 0}
+    m_Center: {x: -0.013768375, y: 0.00557971, z: 0}
+    m_Extent: {x: 0.9632083, y: 2.3619518, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8941294836744285099

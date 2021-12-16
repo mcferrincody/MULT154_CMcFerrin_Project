@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4777859664067696540}
   - component: {fileID: 582275491055241064}
   - component: {fileID: -2301641370081307854}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: EnemyWeapon
   m_TagString: EnemyBaseProjectile
   m_Icon: {fileID: 0}
@@ -145,6 +145,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 11400000, guid: 754e9fa230a63f645a9aa6f367696590, type: 2}
+  damageAmount: 10
+  damageLayers:
+    serializedVersion: 2
+    m_Bits: 1
   fired: 1
   left: 1
   projectileLifeTime: 1.5

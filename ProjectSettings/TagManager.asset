@@ -23,8 +23,8 @@ TagManager:
   - Hookable
   - Player
   - MiniMapIcons
-  - Layer
-  - 
+  - LevelBorder
+  - Enemy
   - 
   - 
   - 
