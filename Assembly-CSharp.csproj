@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2020_3_17;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_17;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_MONO_BDWGC;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_WEBGL;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -49,12 +49,17 @@
     <UnityProjectGenerator>Package</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\LevelScripts\Managers\Managers.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Dash.cs" />
+    <Compile Include="Assets\Scripts\Stats\Health.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\Platforms\PathEditor.cs" />
     <Compile Include="Assets\Scripts\WeaponScripts\ObjectPooler.cs" />
     <Compile Include="Assets\Scripts\AIScripts\EnemyCharacter.cs" />
     <Compile Include="Assets\Scripts\AIScripts\AIManagers.cs" />
@@ -66,29 +71,50 @@
     <Compile Include="Assets\Scripts\LevelScripts\Platforms\OneWayPlatform.cs" />
     <Compile Include="Assets\Scripts\WeaponScripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Abilities.cs" />
+    <Compile Include="Assets\Scripts\Stats\Items\Consumable.cs" />
+    <Compile Include="Assets\Scripts\Stats\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Map\MiniMapFinder.cs" />
+    <Compile Include="Assets\Scripts\Stats\RandomDrop.cs" />
     <Compile Include="Assets\Scripts\Map\MiniMap.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\Managers\TitleScreen.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Managers\PlayerPrefsX.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Platforms\Ladder.cs" />
+    <Compile Include="Assets\Scripts\Map\DeadScreenFinder.cs" />
     <Compile Include="Assets\Scripts\Map\PlayerBlip.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Platforms\FallingPlatforms.cs" />
     <Compile Include="Assets\Scripts\AIScripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\GrapplingHook.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\CharacterManager.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Water.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Managers\NextScene.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\Managers\SaveGame.cs" />
     <Compile Include="Assets\Scripts\WeaponScripts\EnemyWeapon.cs" />
+    <Compile Include="Assets\Scripts\Stats\Items\AbilityItem.cs" />
+    <Compile Include="Assets\Scripts\Stats\Items\ItemType.cs" />
     <Compile Include="Assets\Scripts\AIScripts\MeleeAttack.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\LedgeLocator.cs" />
     <Compile Include="Assets\Scripts\Map\PlayerIndicatorMovement.cs" />
     <Compile Include="Assets\Scripts\WeaponScripts\WeaponTypes.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\HorizontalMovement.cs" />
+    <Compile Include="Assets\Scripts\OutOfBounds.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Platforms\MoveablePlatform.cs" />
+    <Compile Include="Assets\Scripts\Stats\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\Managers\MenuSlot.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Wind.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\Platforms\Ledge.cs" />
+    <Compile Include="Assets\Scripts\Map\AreYouSureFinder.cs" />
     <Compile Include="Assets\Scripts\Map\BigMapFinder.cs" />
     <Compile Include="Assets\Scripts\Map\FogOfWar.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Managers\UIManager.cs" />
+    <Compile Include="Assets\Scripts\WeaponScripts\PlayerMeleeAttack.cs" />
+    <Compile Include="Assets\Scripts\Stats\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Stats\Items\ItemPickup.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Testing.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Managers\LevelManager.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Platforms\PlatformManager.cs" />
+    <Compile Include="Assets\Scripts\Map\GamePausedFinder.cs" />
     <Compile Include="Assets\Scripts\LevelScripts\Managers\SceneReference.cs" />
+    <Compile Include="Assets\Scripts\Stats\Items\AbilityPickup.cs" />
     <Compile Include="Assets\Scripts\AIScripts\PlayerDetector.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Jump.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\Character.cs" />
@@ -96,32 +122,9 @@
     <Compile Include="Assets\Scripts\LevelScripts\Managers\Door.cs" />
     <Compile Include="Assets\Scripts\Map\BigMap.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\InputManager.cs" />
-    <Compile Include="Assets\Scripts\LevelScripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Stats\Health.cs" />
-    <Compile Include="Assets\Scripts\Stats\EnemyHealth.cs" />
-    <Compile Include="Assets\Scripts\Stats\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\Stats\RandomDrop.cs" />
-    <Compile Include="Assets\Scripts\Stats\HealthBar.cs" />
-    <Compile Include="Assets\Scripts\Stats\Items\AbilityItem.cs" />
-    <Compile Include="Assets\Scripts\Stats\Items\AbilityPickup.cs" />
-    <Compile Include="Assets\Scripts\Stats\Items\Consumable.cs" />
     <Compile Include="Assets\Scripts\Stats\Items\HealthConsumable.cs" />
-    <Compile Include="Assets\Scripts\Stats\Items\ItemPickup.cs" />
-    <Compile Include="Assets\Scripts\Stats\Items\ItemType.cs" />
-    <Compile Include="Assets\Scripts\LevelScripts\Managers\MenuSlot.cs" />
-    <Compile Include="Assets\Scripts\LevelScripts\Managers\SaveGame.cs" />
-    <Compile Include="Assets\Scripts\LevelScripts\Managers\TitleScreen.cs" />
-    <Compile Include="Assets\Scripts\LevelScripts\Platforms\Ledge.cs" />
-    <Compile Include="Assets\Scripts\LevelScripts\Platforms\PathEditor.cs" />
-    <Compile Include="Assets\Scripts\Map\AreYouSureFinder.cs" />
-    <Compile Include="Assets\Scripts\Map\DeadScreenFinder.cs" />
-    <Compile Include="Assets\Scripts\Map\GamePausedFinder.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\CharacterManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\LedgeLocator.cs" />
-    <Compile Include="Assets\Scripts\PlayerScripts\Testing.cs" />
     <Compile Include="Assets\Scripts\WeaponScripts\DamageOnTouch.cs" />
-    <Compile Include="Assets\Scripts\WeaponScripts\PlayerMeleeAttack.cs" />
-    <Compile Include="Assets\Scripts\OutOfBounds.cs" />
+    <Compile Include="Assets\Scripts\LevelScripts\Managers\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -129,9 +132,6 @@
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ARModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
@@ -150,12 +150,6 @@
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
@@ -310,8 +304,8 @@
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.VirtualTexturingModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    <Reference Include="UnityEngine.WebGLModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\PlaybackEngines\WebGLSupport\Managed\UnityEngine.WebGLModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.WindModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>

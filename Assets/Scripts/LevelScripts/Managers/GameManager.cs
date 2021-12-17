@@ -67,7 +67,7 @@ namespace MetroidvaniaTools
 
         }
 
-        //Method that chanages character, called from the CharacterManager script located on Player
+        //Method that changes character, called from the CharacterManager script located on Player
         public virtual void ChangeCharacter(GameObject currentCharacter)
         {
             //Gets a reference of the old player from the scene
